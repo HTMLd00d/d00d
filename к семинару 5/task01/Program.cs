@@ -28,7 +28,7 @@ int SumOdd(int[] array)
 {
     int sum = 0;
     for (int i = 0; i < array.Length; i++)
-    if (array[i] %2== 1) sum = sum+ array[i];
+        if (i%2==1) sum = sum + array[i-1];
     return sum;
 }
 
