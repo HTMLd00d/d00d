@@ -33,4 +33,4 @@ int FindSum(int[] arr)
 FillArray(array);
 PrintArray(array);
 int result = FindSum(array);
-Console.WriteLine($"Количество {result}");
+Console.WriteLine($"Количество чисел >0 {result}");
